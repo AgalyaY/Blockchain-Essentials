@@ -1,5 +1,6 @@
-pragma solidity ^0.5.8;
+//Simple Bank Smart Contract Development
 
+pragma solidity ^0.5.8;
 contract SimpleBank {
     uint8 private clientCount;
     mapping (address => uint) private balances;
